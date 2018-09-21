@@ -72,15 +72,13 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="19dp"
         android:gravity="center"
-        android:orientation="horizontal"
-        android:weightSum="">
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/btnGmail"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_marginRight="100dp"
-            android:layout_weight=""
             android:background="@drawable/icon_gmail" />
 
         <Button
@@ -88,7 +86,6 @@
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_gravity="right"
-            android:layout_weight=""
             android:background="@drawable/icon_facebook" />
     </LinearLayout>
 
